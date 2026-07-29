@@ -1,0 +1,128 @@
+/* ===============================
+   WISHLIST PAGE
+================================== */
+
+.wishlist-page{
+    min-height:100vh;
+    background:#f8f9fa;
+    padding:50px 0;
+}
+
+/* Header */
+
+.wishlist-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.wishlist-header h2{
+    font-size:34px;
+    font-weight:700;
+    color:#222;
+}
+
+.wishlist-header p{
+    color:#777;
+    margin-top:8px;
+}
+
+/* Empty Card */
+
+.wishlist-empty{
+    background:#fff;
+    border-radius:25px;
+    padding:70px 40px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    max-width:750px;
+    margin:auto;
+    transition:.3s;
+}
+
+.wishlist-empty:hover{
+    transform:translateY(-5px);
+}
+
+/* Heart Icon */
+
+.wishlist-icon{
+    width:120px;
+    height:120px;
+    margin:auto;
+    border-radius:50%;
+    background:#ffe6ea;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.wishlist-icon i{
+    font-size:60px;
+    color:#ff4d6d;
+}
+
+/* Text */
+
+.wishlist-empty h3{
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.wishlist-empty p{
+    color:#777;
+    font-size:17px;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+/* Button */
+
+.browse-btn{
+    display:inline-block;
+    background:#ff4d6d;
+    color:#fff;
+    padding:14px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.browse-btn:hover{
+    background:#e63956;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .wishlist-header{
+        text-align:center;
+        justify-content:center;
+    }
+
+    .wishlist-header h2{
+        font-size:28px;
+    }
+
+    .wishlist-empty{
+        padding:50px 25px;
+    }
+
+    .wishlist-icon{
+        width:90px;
+        height:90px;
+    }
+
+    .wishlist-icon i{
+        font-size:45px;
+    }
+
+}
