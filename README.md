@@ -1,4 +1,4 @@
-# 🍔 QuickBite – Full Stack Food Ordering Platform
+<img width="1920" height="1080" alt="Screenshot 2026-07-29 212153" src="https://github.com/user-attachments/assets/2b469bba-d15b-4b91-b623-48e0fcd09b50" /># 🍔 QuickBite – Full Stack Food Ordering Platform
 
 QuickBite is a full-stack food ordering web application inspired by modern food delivery platforms like Swiggy. It provides a seamless experience for customers to browse food items, manage their cart and wishlist, place orders, and track order history. An integrated admin panel enables efficient food and order management.
 
@@ -155,9 +155,8 @@ backend/config/db.js
 
 ## 📸 Screenshots
 
-> Screenshots will be added soon.
-
 - Home Page
+  <img width="1920" height="1080" alt="Home Page" src="https://github.com/user-attachments/assets/948c1ad0-3f2d-4c17-8fbb-e3f9e14caf3c" />
 - Login
 - Food Menu
 - Cart
@@ -166,6 +165,8 @@ backend/config/db.js
 - Admin Dashboard
 - Manage Foods
 - Manage Orders
+
+
 
 ---
 
